@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1773233270.53365 "/Users/tommasoriggio/Documents/GitHub/Solarwinds-reserch-PoliTo/hello.tex" "hello.pdf" "hello" 1773233270.6026 0
+  "/Users/tommasoriggio/Documents/GitHub/Solarwinds-reserch-PoliTo/hello.tex" 1773233270.35457 73 016289e718c65467c57b68ec4026ad03 ""
+  "/usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls" 1748806692 20144 b966087dda3b194755eb460d32e2ef75 ""
+  "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/size10.clo" 1748806692 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
+  "/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1761248321 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
+  "/usr/local/texlive/2026basic/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
+  "/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1773162052 79187 e3f5941707347d15c1721f52279213a2 ""
+  "/usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1773162022 2966189 5274fdc8058d903d313c438ff1910e35 ""
+  "/usr/local/texlive/2026basic/texmf.cnf" 1772405582 628 bbc09d6d38872d53c11bb48dc9b14e88 ""
+  "hello.aux" 1773233270.59473 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "hello.tex" 1773233270.35457 73 016289e718c65467c57b68ec4026ad03 ""
+  (generated)
+  "hello.aux"
+  "hello.log"
+  "hello.pdf"
+  (rewritten before read)
