@@ -1,2 +1,2 @@
-# Solarwinds-reserch-PoliTo
-University project on Solarwinds 2020 attack
+# Cryptographic Backdoors: Security vs. Lawful Access
+University project in the course "Cybersecurity and National Defence"
