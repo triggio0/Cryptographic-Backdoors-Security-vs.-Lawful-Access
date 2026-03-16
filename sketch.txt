@@ -1,0 +1,47 @@
+3.3 Cryptographic Backdoors: Security vs. Lawful Access
+
+------------------------------------------ ? abstract ? ------------------------------------------
+
+This research explains how encryption protects digital communications by converting readable
+information into coded text using mathematical keys. It clarifies how technologies such as
+symmetric and asymmetric encryption, HTTPS, and end-to-end encryption secure everyday
+activities like messaging and online banking. The research then explores the debate over whether
+governments should have access to encrypted communications through “backdoors”, which
+would allow authorities to access encrypted data. The topic examines the tension between
+cybersecurity and privacy right, requiring strong encryption, and intelligence community’s needs
+to include exceptional access to user communications.
+
+--------------------------------------------------------------------------------------------------
+
+
+### Can "lawful access" be built without compromising security? ###
+
+> exceptional-access designs (key escrow, split keys, client-side scanning, secure multi-party computation)
+> background on encryption primitives (symmetric/asymmetric, TLS/HTTPS, E2EE)
+> threat model (attackers, capabilities, and attacker goals)
+
+
+### Historical cases ###
+
+> Apple vs. FBI
+> Clipper Chip (attempt at key escrow)
+
+
+### Human rights factor ###
+
+> weaker encryption dispoportionately affects journalists, activists, dissidents, in authoritarian context
+> Is privacy a technical property or a political decision?
+    - should privacy be inforced by politics (trust in institutions) or by cryptography (guaranteed by mathematics)
+
+
+### Economic and Security Implications ###
+
+> loss of trust in oud services, online banking, messaging/social apps
+> cybersecurity costs due to weaker securyty (more complex systems)
+
+
+### Mitigation ###
+
+> split-key systems (multiple parties each hold part of a decryption key)
+> client-side scanning
+    - Online Safety Act (https://www.gov.uk/government/collections/online-safety-act)

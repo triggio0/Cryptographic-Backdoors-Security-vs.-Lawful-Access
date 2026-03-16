@@ -1,0 +1,22 @@
+-- points -- 
+
+> 5 points for technical part
+    - ???
+> 4 points for the research report
+    - 2 points for completeness
+    - 2 points for clarity
+> 3 points for the oral presentation
+    - Max 15 minutes for presentation
+    - Evaluation is based on: presentation quality and clearness
+total 12/33
+
+
+-- expected content -- 
+
+- Introduction
+- Background
+- Overview of the problem/evaluation
+- Examples (where applicable)
+- Discussion about mitigations/protections/applications
+- Conclusion
+
