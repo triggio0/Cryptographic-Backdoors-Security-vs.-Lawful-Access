@@ -14,9 +14,20 @@ total 12/33
 -- expected content -- 
 
 - Introduction
+       - Definitions and important terms
+       - How encryption works
+       - Where it is used
+       - Lawful vs unlawful
+       - History of cryptography
+
 - Background
+    - Historical background
+
 - Overview of the problem/evaluation
+
 - Examples (where applicable)
 - Discussion about mitigations/protections/applications
+
 - Conclusion
+- Sources
 
