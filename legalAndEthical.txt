@@ -6,22 +6,48 @@
 
     - Article 8
         1. Everyone has the right to respect for his private and family life, his home and his correspondence.
-        2. There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security,public safety or the economic wellbeing of the country, for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights and freedoms of others.
+
+        2. There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security, public safety or the economic wellbeing of the country, for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights and freedoms of others.
 
         - "private life"
             It is a broad and non-exhaustive concept encompassing a person’s physical and psychological integrity, personal identity, dignity, and autonomy, as well as the right to establish and develop relationships with others. It is not limited to an inner sphere of intimacy but may extend to aspects of social identity and interactions in public contexts, provided that the interference reaches a certain threshold of seriousness (ECtHR, Guide on Article 8, 2025, §§ 86–88).
-        - "correspondance"
+
+        - "correspondence"
             1. It encompasses all forms of communication between individuals, including letters, telephone calls, and electronic communications such as emails and internet-based messaging.
-            2. It is protected, guaranteeing the confidentiality of communications irrespective of their content and may extend to professional contexts, subject to a reasonable expectation of privacy. Interference arises where communications are intercepted, monitored, or otherwise accessed by public authorities
+
+            2. It is protected, guaranteeing the confidentiality of communications irrespective of their content and may extend to professional contexts, subject to a reasonable expectation of privacy. Interference arises where communications are intercepted, monitored, or otherwise accessed by public authorities.
             (ECtHR, Guide on Article 8, 2025, §§ 300–305; see also Bărbulescu v. Romania [GC])      // TODO verity §§
+
         - on legitimate aim
-            1. Survaillance represents a serious interference with the right to respect for correspondence, it must be based on a “law” that is particularly precise. The rules must be clear and detailed, as well as being both accessible and foreseeable (ECtHR, Guide on Article 8, 2025, § 659)
-            2. It is for the respondent Government to demonstrate that the interference pursued a legitimate aim When referring to a legitimate aim, the Government must demonstrate that, in acting to penalise an applicant, the domestic authorities had that legitimate aim in mind (ECtHR, Guide on Article 8, 2025, § 25)
+            1. Surveillance represents a serious interference with the right to respect for correspondence, it must be based on a "law" that is particularly precise. The rules must be clear and detailed, as well as being both accessible and foreseeable (ECtHR, Guide on Article 8, 2025, § 659)
+
+            2. It is for the respondent Government to demonstrate that the interference pursued a legitimate aim. When referring to a legitimate aim, the Government must demonstrate that, in acting to penalise an applicant, the domestic authorities had that legitimate aim in mind (ECtHR, Guide on Article 8, 2025, § 25)
+
             3. The Court has emphasised the need for safeguards: nature, scope and duration of the possible measures, the grounds required for ordering them, the authorities competent to permit, carry out and supervise them, and the kind of remedy provided by the national law (ECtHR, Guide on Article 8, 2025, § 660)
         
         -  https://ks.echr.coe.int/documents/d/echr-ks/guide_art_8_eng-pdf
 
-    - overview of case
+    - Podchasov c. Russia
+
+        - context:
+            1. On 12 July 2017 the Federal Security Service ("FSB") required Telegram Messenger LLP to disclose technical information which would facilitate “the decryption of communications since 12 July 2017 in respect of Telegram users who were suspected of terrorism-related activities”. As a Internet communications organiser, Telegram was required to store all communications data for a duration of one year and the contents of all communications for a duration of six months, and to hand over such data to authorities in circumstances specified by law, together with technical information required to decrypt communications.
+
+            2. Telegram refused to comply on the basis that, as the communication was in a "secret chat" (end-to-end encrypted), complying with the order would be technically impossible without creating a backdoor that would severely undermine the security on the encryption system for all users.
+
+            3. The plaintiff argued that complying would breach their right to respect for their private life and for the privacy of their communications (ECHR, article 8). Furthermore this would allow Russian authorities to access all Telegram communications in the future, even without judicial authorization.
+
+        - verdict:
+            "THE COURT: 3. Holds, unanimously, that there has been a violation of Article 8 of the Convention",
+            "...it impairs the very essence of the right to respect for private life...",
+            (ECtHR, Podchasov v Russia, 2024).
+
+        - why the case is of interest:
+            1. Backdoors are not seen as a "targeted measure": end-to-end encryption cannot be weakened selectively, and any obligation to decrypt affects all users indiscriminately. The court rejected the framing of the lawful access as "targeted".
+            "The impact of most encryption restrictions on the right to privacy and associated rights are disproportionate, often affecting not only the targeted individuals but the general population." (OHCHR, The right to privacy in the digital age, UN Doc A/HRC/51/17 (2022), § 25)
+
+            2. Security vs privacy is not a simple trade-off: weakening encryption does not only cause a reduction in privacy for users. Backdoors also necessarily generate security risk for the platform, and thus possible vulnerabilities, that can be exploited by hackers and bad actors.
+            - "Encryption, moreover, appears to help citizens and businesses to defend themselves against abuses of information technologies, such as hacking, identity and personal data theft, fraud and the improper disclosure of confidential information. This should be given due consideration when assessing measures which may weaken encryption" (ECtHR, Podchasov v Russia, 2024, § 76).
+            - The court calls for alternative "solutions to decryption without weakening the protective mechanisms, both in legislation and through continuous technical evolution" (ECtHR, Podchasov v Russia, 2024, § 78).
 
         - https://hudoc.echr.coe.int/eng/#{%22itemid%22:[%22001-230854%22]}
 
