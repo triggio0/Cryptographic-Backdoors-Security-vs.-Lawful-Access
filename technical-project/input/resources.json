@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "id": "g501",
+      "type": "grade",
+      "owner": "u100",
+      "classification": "normal"
+    },
+    {
+      "id": "e700",
+      "type": "exam_record",
+      "owner": "u200",
+      "classification": "normal"
+    },
+    {
+      "id": "d900",
+      "type": "document",
+      "owner": "u300",
+      "classification": "restricted"
+    },
+    {
+      "id": "r800",
+      "type": "research_file",
+      "owner": "u400",
+      "classification": "internal"
+    }
+  ]
+}

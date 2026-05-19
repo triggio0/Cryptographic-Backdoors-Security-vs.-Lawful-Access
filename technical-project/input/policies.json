@@ -1,0 +1,63 @@
+{
+  "policies": [
+    {
+      "id": "P1",
+      "subject": {
+        "role": "professor"
+      },
+      "resource": {
+        "type": "exam_record"
+      },
+      "actions": ["read", "write"]
+    },
+    {
+      "id": "P2",
+      "subject": {
+        "role": "student"
+      },
+      "resource": {
+        "type": "grade",
+        "owner_is_subject": true
+      },
+      "actions": ["read"]
+    },
+    {
+      "id": "P3",
+      "subject": {
+        "role": "admin"
+      },
+      "resource": {
+        "type": "document"
+      },
+      "actions": ["delete"],
+      "context": {
+        "hour_min": 8,
+        "hour_max": 18
+      }
+    },
+    {
+      "id": "P4",
+      "subject": {
+        "clearance_min": 3
+      },
+      "resource": {
+        "classification": "restricted"
+      },
+      "actions": ["read"],
+      "context": {
+        "mfa_required": true
+      }
+    },
+    {
+      "id": "P5",
+      "subject": {
+        "role": "researcher"
+      },
+      "resource": {
+        "type": "research_file",
+        "classification": "internal"
+      },
+      "actions": ["read"]
+    }
+  ]
+}

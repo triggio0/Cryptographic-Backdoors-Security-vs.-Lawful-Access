@@ -1,0 +1,24 @@
+{
+  "subjects": [
+    {
+      "id": "u100",
+      "role": "student",
+      "clearance": 1
+    },
+    {
+      "id": "u200",
+      "role": "professor",
+      "clearance": 2
+    },
+    {
+      "id": "u300",
+      "role": "admin",
+      "clearance": 3
+    },
+    {
+      "id": "u400",
+      "role": "researcher",
+      "clearance": 2
+    }
+  ]
+}

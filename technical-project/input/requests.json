@@ -1,0 +1,54 @@
+{
+  "requests": [
+    {
+      "request_id": "R1",
+      "subject_id": "u100",
+      "resource_id": "g501",
+      "action": "read",
+      "context": {
+        "hour": 10,
+        "mfa": false
+      }
+    },
+    {
+      "request_id": "R2",
+      "subject_id": "u100",
+      "resource_id": "e700",
+      "action": "read",
+      "context": {
+        "hour": 10,
+        "mfa": false
+      }
+    },
+    {
+      "request_id": "R3",
+      "subject_id": "u300",
+      "resource_id": "d900",
+      "action": "delete",
+      "context": {
+        "hour": 21,
+        "mfa": true
+      }
+    },
+    {
+      "request_id": "R4",
+      "subject_id": "u300",
+      "resource_id": "d900",
+      "action": "read",
+      "context": {
+        "hour": 11,
+        "mfa": true
+      }
+    },
+    {
+      "request_id": "R5",
+      "subject_id": "u400",
+      "resource_id": "r800",
+      "action": "read",
+      "context": {
+        "hour": 9,
+        "mfa": false
+      }
+    }
+  ]
+}
