@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "total_requests": 5,
+    "permitted_requests": 3,
+    "denied_requests": 2
+  },
+  "results": [
+    {
+      "request_id": "R1",
+      "decision": "Permit",
+      "matched_policy": "P2",
+      "matched_conditions": [
+        "subject.role=student",
+        "resource.type=grade",
+        "owner_is_subject=true",
+        "action=read"
+      ]
+    },
+    {
+      "request_id": "R2",
+      "decision": "Deny",
+      "matched_policy": null,
+      "matched_conditions": []
+    },
+    {
+      "request_id": "R3",
+      "decision": "Deny",
+      "matched_policy": null,
+      "matched_conditions": []
+    },
+    {
+      "request_id": "R4",
+      "decision": "Permit",
+      "matched_policy": "P4",
+      "matched_conditions": [
+        "subject.clearance>=3",
+        "resource.classification=restricted",
+        "action=read",
+        "context.mfa=true"
+      ]
+    },
+    {
+      "request_id": "R5",
+      "decision": "Permit",
+      "matched_policy": "P5",
+      "matched_conditions": [
+        "subject.role=researcher",
+        "resource.type=research_file",
+        "resource.classification=internal",
+        "action=read"
+      ]
+    }
+  ]
+}

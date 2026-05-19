@@ -5,3 +5,6 @@
 *.synctex.gz
 *.out
 *.toc
+
+__pycache__/
+*.py[cod]
